@@ -18,10 +18,22 @@ The research delves into parliamentary discourses' dynamics on the Amazon rainfo
 
 `lda_dtm.ipynb`: build DTM based on the LDA model.
 
+
 ### `src` 
 
 It contains the LDA topic model inputs: the dictionary and the corpus.
 
+
 ### `vis` 
 
 LDAvis, and TM and DTM results in `.html`.
+
+
+## Screenshots
+
+Timeline of the topics identified by the LDA model and their popularity in parliament.
+![Evolution and popularity of Amazon rainforest-related topics in Brazil's parliament over time.](https://i.postimg.cc/pXLStGDd/yearly-average.jpg)
+
+Map of all the parliamentary discourses on Amazon rainforest-related from 2000 to 2021.
+![t-SNE clustering of LDA topics in discourses on the Amazon rainforest in Brazil's parliament from 2000 to 2021.](https://i.postimg.cc/zXDBWggQ/amazon-map.jpg)
+
